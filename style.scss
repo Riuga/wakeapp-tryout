@@ -109,6 +109,7 @@ p {
 
 .linkIcons {
   justify-content: center;
+  padding-bottom: 1rem;
 
   a {
     img {
@@ -117,8 +118,6 @@ p {
       margin: 0 6px;
     }
   }
-
-  padding-bottom: 1rem;
 }
 
 .logo {
@@ -126,7 +125,6 @@ p {
 }
 
 .masscote {
-  // max-width: 30vw;
   max-height: 40vw;
 }
 
@@ -151,6 +149,8 @@ p {
   }
 
   .linkIcons {
+    padding-bottom: 0.5rem;
+
     a {
       img {
         width: 1rem;
@@ -158,8 +158,6 @@ p {
         margin: 0 6px;
       }
     }
-
-    padding-bottom: 0.5rem;
   }
 }
 
@@ -304,10 +302,6 @@ header {
       @include hover-border;
     }
   }
-
-  // a:hover {
-  //   @include hover-border;
-  // }
 }
 
 // Games section
